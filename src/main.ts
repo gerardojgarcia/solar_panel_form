@@ -27,7 +27,7 @@ class UserAccount {
   email: string;
   address: string;
   panels: number;
-  recurring: Boolean;
+  recurring: boolean;
 
   constructor(name: string, email: string, address: string, panels: number, recurring: boolean){
     this.name = name
@@ -69,8 +69,5 @@ displayEl.innerHTML = `<p>${user.name}</p>
 
 
   `
-
-
-
 
 })
