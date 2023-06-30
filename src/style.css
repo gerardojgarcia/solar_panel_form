@@ -94,6 +94,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+
+  .app__container{
+      border: 2px solid black;
+  }
 }
 
 
@@ -106,6 +111,7 @@ button:focus-visible {
     border-radius: .5rem;
     padding: 10rem 2rem;
 
+    color-scheme: light dark;
 
 
     margin: 0 auto;
@@ -132,4 +138,13 @@ button:focus-visible {
 
 .app__form input {
     margin-bottom: 1rem;
+}
+
+
+#app__container-display {
+    text-align: left;
+    margin:  auto;
+
+    padding-top: 2rem;
+
 }
